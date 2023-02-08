@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopping-card {
+    justify-content: space-between;
+    background-color: #456ef5;
+    padding: 20px 30px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.product-item {
+    padding: 20px;
+    line-height: 2rem;
+    /* background-color: red; */
+}
+
+.addbutton {
+    background-color: orange;
+    width: 100%;
+    height: 7vh;
+    font-weight: bold;
+    border: 3px solid rgb(195, 226, 18);
+}
+
+.contianer1 {
+    /* background-color: rgb(236, 93, 93); */
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5rem;
+}
+
+.total {
+    margin-top: 2rem;
+    padding-left: 35%;
+    font-weight: bold;
+}
+
+.button {
+    width: 32px;
+}
+
+.numbers {
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    padding-right: 5px;
+    margin-left: 4px;
+}
+
+.items_name {
+    width: 60%;
+}
+
+.paybutton {
+    padding: 5px;
+    font-weight: bold;
+}
